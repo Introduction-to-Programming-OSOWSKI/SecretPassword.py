@@ -1,16 +1,24 @@
-# **Assignment Title**  
+# **Secret Password**  
 
 ## **Assignment Description**  
-
+Create a function password() that returns true/false if a given variable p equals the secret password "Knights19"
 
 ## **Examples**  
->
+>password("password")  
+false
+
+>password("Knights19")  
+true
 
 ## **Limitations**  
+1 if  
+1 else  
 
 ## **Hints**  
+N/A  
 
 ## **Concepts**  
+Unit 1, if/else  
 
 ---
 
