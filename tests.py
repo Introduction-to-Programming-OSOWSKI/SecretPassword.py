@@ -6,12 +6,12 @@ import main;
 import datetime;
 
 year = 2021
-month = 1
-day = 4
+month = 3
+day = 29
 
 def test_code():
-    assert main.password("Knights19") == True, "password('Knights19') == True failed"
-    assert main.password("Ksdsdgssdb") == False, "password('Ksdsdgssdb') == False failed"
+    assert main.password("Knights19") == "ACCESS GRANTED", "password('Knights19') == ACCESS GRANTED failed"
+    assert main.password("Ksdsdgssdb") == "ACCESS DENIED", "password('Ksdsdgssdb') == ACCESS DENIED failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"

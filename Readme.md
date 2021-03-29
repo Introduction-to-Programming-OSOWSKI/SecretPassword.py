@@ -1,21 +1,21 @@
 # **Secret Password**  
 
 ## **Assignment Description**  
-Create a function password() that returns true/false if a given variable p equals the secret password "Knights19"
+Create a function password() that returns access granted/denied if a given variable p equals the secret password "Knights19"
 
 ## **Examples**  
 >password("password")  
-false
+ACCESS DENIED
 
 >password("Knights19")  
-true
+ACCESS GRANTED
 
 ## **Limitations**  
 1 if  
 1 else  
 
 ## **Hints**  
-N/A  
+Be sure to write your return statements exactly as given in the examples. Capitalization and spelling matters.
 
 ## **Concepts**  
 Unit 1, if/else  
